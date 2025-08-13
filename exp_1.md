@@ -61,3 +61,14 @@ output:
 <img width="622" height="456" alt="Screenshot 2025-08-06 114108" src="https://github.com/user-attachments/assets/67c68430-2142-48a9-8089-cded1f1b8dfe" />
 <img width="579" height="334" alt="Screenshot 2025-08-06 114058" src="https://github.com/user-attachments/assets/c229c95c-71d8-4bb0-b697-9daa3071775f" />
 
+test case:
+def xor(a,b):
+  return a ^ b
+test_inputs=[[0,0],[0,1],[1,0],[1,1]]
+print("Test Input (X) Expected output (Y)")
+for pair in test_inputs:
+  output=xor(pair[0],pair[1])
+  print(f"{str(pair):22} {output}")
+
+output:
+<img width="251" height="85" alt="Screenshot 2025-08-13 102710" src="https://github.com/user-attachments/assets/de1f113b-99d1-4349-b77a-8b47c6e3c62f" />
