@@ -12,5 +12,8 @@ for case in test_cases:
     correct = "Y" if case["predicted"] == case["expected"] else "N"
     print(f"{case['input']:<30}{case['predicted']:<15}{correct:<15}")
 
-    output:
-    <img width="449" height="108" alt="Screenshot 2025-09-03 094026" src="https://github.com/user-attachments/assets/cefc4f13-86dd-4f3c-8c0b-4e2da52c9209" />
+
+
+output:
+
+<img width="449" height="108" alt="Screenshot 2025-09-03 094026" src="https://github.com/user-attachments/assets/a5b15cd2-b009-4a20-8255-c51a37a79040" />
